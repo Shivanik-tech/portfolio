@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+
+}
+.sidebar{
+    background-color:rgba(185, 182, 190, 0.9);
+    width:434px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    height:700px;
+    
+}
+.sidebar nav{
+    padding:52px;
+    /* position: sticky;ye kaam ni kr rha */
+    
+}
+.sidebar nav  li {
+    list-style-type: none;
+    font-size: 30px;
+    padding :22px 0;
+}
+.sidebar nav  li a{
+    text-decoration: none;
+    color:black;
+}
+.sidebar nav  li a:hover{
+   color:blue;
+   letter-spacing: 4px;
+   font-family: Georgia, 'Times New Roman';
+
+}
+.main{
+    /* background-color: rgb(230, 216, 23); */
+    width:80vw;
+}
+.container{
+    display:flex;
+}
+.contactform{
+    margin-left:34px;
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contactform h2{
+    text-transform: uppercase;
+   color: blue;
+   text-align: center;
+}
+.contactform form div{
+ 
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input{
+width:26vw;
+  border-radius: 5px;
+
+  margin:6px 0 0 0;
+  padding:5px;
+}
+#emailHelp{
+    font-size: 10px ;
+    color:midnightblue;
+    margin:0 5px;
+}
+#form-check div{
+    flex-direction: row;
+
+}
+#form-check input{
+    width:16px;
+    
+}

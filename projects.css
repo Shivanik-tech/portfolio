@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+
+}
+.sidebar{
+    background-color:rgba(185, 182, 190, 0.9);
+    width:434px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    height:auto;
+    
+}
+.sidebar nav{
+    padding:52px;
+    /* position: sticky;ye kaam ni kr rha */
+    
+}
+.sidebar nav  li {
+    list-style-type: none;
+    font-size: 30px;
+    padding :22px 0;
+}
+.sidebar nav  li a{
+    text-decoration: none;
+    color:black;
+}
+.sidebar nav  li a:hover{
+   color:blue;
+   letter-spacing: 3px;
+   font-family: Georgia, 'Times New Roman';
+
+}
+.main{
+    /* background-color: rgb(230, 216, 23); */
+    width:80vw;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+     /* background-color: blue;  */
+    height:73vh;
+    width:65vw;
+    margin:104px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* color: blanchedalmond; */
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+}
+.about{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family:cursive;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding:9px 14px;
+    border-radius: 23px;
+    color:white;
+    background-color: blue;
+    font-size: 23px;
+    margin:0 3px;
+    cursor:pointer;
+}
+.buttons button:hover{
+    background-color:white;
+    color: blue;
+    box-shadow: 0 0 7px blue;
+}
+.devPic img{
+    width:300px;
+    justify-content: space-around;
+    height:73vh;
+}
